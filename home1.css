@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #5840ce;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    color: #f5f5f5;
+    background-color: #b12727;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .begin {
+    text-align: center;
+  }
+  
+  .intro p {
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  .above {
+    margin-top: 4rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .img {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .img h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .img p {
+    margin-bottom: 1rem;
+  }
+  
+  .img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Photo gallery styles */
+  .photos {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  

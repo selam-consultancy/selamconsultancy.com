@@ -1,0 +1,49 @@
+.background{ width:100%;
+    height:13vh;
+    background-image:url(danakil.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px;
+    margin: 2px;
+    padding: 1px;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+     width: 98%;
+    position:absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-content: center;
+    color: #661451; 
+}
+.main{
+    width:100%;
+    height:60vh;
+    background-image: none,url( lake\ tana.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.bground{width:100%;
+        height:100%;
+        background-image:linear-gradient(none),url(semien\ mountains.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-left: 1px;
+    }
+.dev {
+        padding: 2px;
+        text-align: center;
+      }
+.gallery{
+        margin: 2px;
+        border: 1px solid #100c87;
+        float: left;
+        width: 180px;
+      }
+      
+.gallery img {
+        width: 100%;
+        height: auto;
+      }
+    

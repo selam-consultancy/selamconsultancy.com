@@ -1,0 +1,25 @@
+.background{ width:110%;
+    height:15vh;
+    background-color:blueviolet;
+    background-size: cover;
+    background-position: center;
+    border: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-content: center;
+    color: #fff;  
+}
+.bground{width:110%;
+    height:100%;
+    background-image:none,url(danakil1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 4px;
+}

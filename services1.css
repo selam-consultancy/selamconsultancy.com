@@ -1,0 +1,47 @@
+
+.banner1{
+    width:100%;
+    height:200vh;
+    background-image: linear-gradient(rgba(204, 214, 247, 0.75),rgba(58, 34, 49, 0.75)),url(fasil.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+.banner{
+    width:100%;
+    height:30vh;
+    background-image: linear-gradient(rgba(235, 122, 197, 0.75),rgba(58, 34, 49, 0.75)),url( lalibela.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.homi{
+    width:100%;
+    height: 100vh;
+    background-image:none url(fasil.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
